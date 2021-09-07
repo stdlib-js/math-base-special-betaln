@@ -117,6 +117,24 @@ for ( x = 0; x < 10; x++ ) {
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/beta`][@stdlib/math/base/special/beta]: beta function.
+-   [`@stdlib/math/base/special/betainc`][@stdlib/math/base/special/betainc]: incomplete beta function.
+-   [`@stdlib/math/base/special/betaincinv`][@stdlib/math/base/special/betaincinv]: inverse incomplete beta function.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -177,6 +195,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [beta-function]: http://en.wikipedia.org/wiki/Beta_function
 
 [gamma-function]: https://en.wikipedia.org/wiki/Gamma_function
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta
+
+[@stdlib/math/base/special/betainc]: https://github.com/stdlib-js/math-base-special-betainc
+
+[@stdlib/math/base/special/betaincinv]: https://github.com/stdlib-js/math-base-special-betaincinv
+
+<!-- </related-links> -->
 
 </section>
 
