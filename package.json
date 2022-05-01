@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-betaln",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "description": "Natural logarithm of the beta function.",
   "license": "Apache-2.0",
   "author": {
