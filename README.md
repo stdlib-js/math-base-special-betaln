@@ -205,7 +205,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [natural-logarithm]: https://en.wikipedia.org/wiki/Natural_logarithm
 
-[beta-function]: http://en.wikipedia.org/wiki/Beta_function
+[beta-function]: https://en.wikipedia.org/wiki/Beta_function
 
 [gamma-function]: https://en.wikipedia.org/wiki/Gamma_function
 
