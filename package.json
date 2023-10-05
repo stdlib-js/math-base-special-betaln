@@ -46,7 +46,8 @@
     "@stdlib/math-base-special-log1p": "^0.1.0",
     "@stdlib/math-base-special-max": "^0.1.1",
     "@stdlib/math-base-special-min": "^0.1.1",
-    "@stdlib/math-base-special-pow": "^0.1.0"
+    "@stdlib/math-base-special-pow": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-nan": "^0.1.1",
