@@ -78,7 +78,7 @@ The [beta function][beta-function] is related to the [gamma function][gamma-func
 ## Usage
 
 ```javascript
-import betaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaln@esm/index.mjs';
+import betaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaln@v0.2.2-esm/index.mjs';
 ```
 
 #### betaln( x, y )
@@ -118,7 +118,7 @@ val = betaln( 4.0, 1.0 );
 <body>
 <script type="module">
 
-import betaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaln@esm/index.mjs';
+import betaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaln@v0.2.2-esm/index.mjs';
 var x;
 var y;
 
