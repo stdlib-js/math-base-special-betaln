@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`f966721`](https://github.com/stdlib-js/stdlib/commit/f966721cd336b1ef47199adc316f6e5779aeff06) - **chore:** update URLs _(by Philipp Burckhardt)_
 -   [`7502603`](https://github.com/stdlib-js/stdlib/commit/75026039180c76cf376d7550d7470c57a11780cd) - **feat:** add C implementation for `math/base/special/betaln` _(by Gunj Joshi, Philipp Burckhardt)_
 
 </details>
