@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-08)
+## Unreleased (2024-08-11)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`0258e19`](https://github.com/stdlib-js/stdlib/commit/0258e19861efda8129308f2caae486b35a249edd) - **chore:** update package meta data [(#2773)](https://github.com/stdlib-js/stdlib/pull/2773) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`82f78f2`](https://github.com/stdlib-js/stdlib/commit/82f78f2a48a3dd406afbed1a3aa2891ecbc94ab6) - **docs:** update function description comments in `math/base/special/betaln` _(by Gunj Joshi)_
 -   [`f966721`](https://github.com/stdlib-js/stdlib/commit/f966721cd336b1ef47199adc316f6e5779aeff06) - **chore:** update URLs _(by Philipp Burckhardt)_
 -   [`7502603`](https://github.com/stdlib-js/stdlib/commit/75026039180c76cf376d7550d7470c57a11780cd) - **feat:** add C implementation for `math/base/special/betaln` _(by Gunj Joshi, Philipp Burckhardt)_
