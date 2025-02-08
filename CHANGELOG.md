@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-23)
+## Unreleased (2025-02-08)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`58e26cb`](https://github.com/stdlib-js/stdlib/commit/58e26cbf1882734b423124a001180661a6c377bb) - **chore:** fix parameter names, return annotations, and example code _(by Philipp Burckhardt)_
 -   [`0258e19`](https://github.com/stdlib-js/stdlib/commit/0258e19861efda8129308f2caae486b35a249edd) - **chore:** update package meta data [(#2773)](https://github.com/stdlib-js/stdlib/pull/2773) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`82f78f2`](https://github.com/stdlib-js/stdlib/commit/82f78f2a48a3dd406afbed1a3aa2891ecbc94ab6) - **docs:** update function description comments in `math/base/special/betaln` _(by Gunj Joshi)_
 -   [`f966721`](https://github.com/stdlib-js/stdlib/commit/f966721cd336b1ef47199adc316f6e5779aeff06) - **chore:** update URLs _(by Philipp Burckhardt)_
