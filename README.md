@@ -101,7 +101,7 @@ var betaln = require( '@stdlib/math-base-special-betaln' );
 
 #### betaln( x, y )
 
-Evaluates the the [natural logarithm][natural-logarithm] of the [beta function][beta-function].
+Evaluates the [natural logarithm][natural-logarithm] of the [beta function][beta-function].
 
 ```javascript
 var val = betaln( 0.0, 0.0 );
@@ -174,7 +174,7 @@ for ( x = 0; x < 10; x++ ) {
 
 #### stdlib_base_betaln( x, y )
 
-Evaluates the the [natural logarithm][natural-logarithm] of the [beta function][beta-function].
+Evaluates the [natural logarithm][natural-logarithm] of the [beta function][beta-function].
 
 ```c
 double v = stdlib_base_betaln( 5.0, 0.2 );
