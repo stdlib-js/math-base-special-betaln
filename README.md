@@ -71,32 +71,14 @@ The [beta function][beta-function] is related to the [gamma function][gamma-func
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-betaln
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var betaln = require( '@stdlib/math-base-special-betaln' );
+import betaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaln@esm/index.mjs';
 ```
 
 #### betaln( x, y )
@@ -130,8 +112,13 @@ val = betaln( 4.0, 1.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var betaln = require( '@stdlib/math-base-special-betaln' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import betaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaln@esm/index.mjs';
 var x;
 var y;
 
@@ -140,6 +127,10 @@ for ( x = 0; x < 10; x++ ) {
         console.log( 'x: %d, \t y: %d, \t f(x,y): %d', x, y, betaln( x, y ) );
     }
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -148,90 +139,7 @@ for ( x = 0; x < 10; x++ ) {
 
 <!-- C interface documentation. -->
 
-* * *
 
-<section class="c">
-
-## C APIs
-
-<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
-
-<section class="intro">
-
-</section>
-
-<!-- /.intro -->
-
-<!-- C usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```c
-#include "stdlib/math/base/special/betaln.h"
-```
-
-#### stdlib_base_betaln( x, y )
-
-Evaluates the [natural logarithm][natural-logarithm] of the [beta function][beta-function].
-
-```c
-double v = stdlib_base_betaln( 5.0, 0.2 );
-// returns ~1.218
-```
-
-The function accepts the following arguments:
-
--   **x**: `[in] double` input value.
--   **y**: `[in] double` input value.
-
-```c
-double stdlib_base_betaln( const double x, const double y );
-```
-
-</section>
-
-<!-- /.usage -->
-
-<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- C API usage examples. -->
-
-<section class="examples">
-
-### Examples
-
-```c
-#include "stdlib/math/base/special/betaln.h"
-#include <stdio.h>
-
-int main( void ) {
-    const double x[] = { 24.0, 32.0, 48.0, 116.0, 33.0 };
-    const double y[] = { 12.0, 6.0, 15.0, 52.0, 22.0 };
-
-    double out;
-    int i;
-    for ( i = 0; i < 5; i++ ) {
-        out = stdlib_base_betaln( x[ i ], y[ i ] );
-        printf( "betaln(%lf, %lf) = %lf\n", x[ i ], y[ i ], out );
-    }
-}
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -258,7 +166,7 @@ int main( void ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -322,11 +230,11 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta
+[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta/tree/esm
 
-[@stdlib/math/base/special/betainc]: https://github.com/stdlib-js/math-base-special-betainc
+[@stdlib/math/base/special/betainc]: https://github.com/stdlib-js/math-base-special-betainc/tree/esm
 
-[@stdlib/math/base/special/betaincinv]: https://github.com/stdlib-js/math-base-special-betaincinv
+[@stdlib/math/base/special/betaincinv]: https://github.com/stdlib-js/math-base-special-betaincinv/tree/esm
 
 <!-- </related-links> -->
 
