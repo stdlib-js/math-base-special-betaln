@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-11)
+## Unreleased (2025-10-01)
 
 <section class="features">
 
@@ -32,6 +32,9 @@
 
 <details>
 
+-   [`a6755be`](https://github.com/stdlib-js/stdlib/commit/a6755be276fe99a1ec76ed0958373a9bc3995c17) - **test:** add tests to achieve full coverage in `beta` and `betaln` _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`edef1e2`](https://github.com/stdlib-js/stdlib/commit/edef1e298a551ed453c4edc3d769746baf5dbde1) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`4b5b0e7`](https://github.com/stdlib-js/stdlib/commit/4b5b0e7a46e88ee0ac8bdfdc2f98a07d59898c78) - **fix:** remove double slash in include path for ninf.h in betaln _(by Philipp Burckhardt)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_

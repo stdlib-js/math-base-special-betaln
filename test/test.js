@@ -24,6 +24,7 @@ var tape = require( 'tape' );
 var isInfinite = require( '@stdlib/math-base-assert-is-infinite' );
 var isnan = require( '@stdlib/assert-is-nan' );
 var PINF = require( '@stdlib/constants-float64-pinf' );
+var NINF = require( '@stdlib/constants-float64-ninf' );
 var EPS = require( '@stdlib/constants-float64-eps' );
 var abs = require( '@stdlib/math-base-special-abs' );
 var betaln = require( './../lib' );
@@ -73,9 +74,9 @@ tape( 'the function returns `NaN` if provided negative values', function test( t
 
 tape( 'the function returns +Infinity if at least one argument is zero', function test( t ) {
 	var val = betaln( 0.0, 2.0 );
-	t.strictEqual( val, PINF, 'returns +Infinity' );
+	t.strictEqual( val, PINF, 'returns expected value' );
 	val = betaln( 1.0, 0.0 );
-	t.strictEqual( val, PINF, 'returns +Infinity' );
+	t.strictEqual( val, PINF, 'returns expected value' );
 	t.end();
 });
 
@@ -101,5 +102,17 @@ tape( 'the function evaluates the natural logarithm of the beta function', funct
 			t.strictEqual( delta <= tol, true, 'returned result is within tolerance. actual: ' + actual + '; expected: ' + expected[ i ] + '.' );
 		}
 	}
+	t.end();
+});
+
+tape( 'the function returns -Infinity when q = Infinity', function test( t ) {
+	var v;
+
+	v = betaln( 1.0, PINF );
+	t.strictEqual( v, NINF, 'returns expected value' );
+
+	v = betaln( 5.0, PINF );
+	t.strictEqual( v, NINF, 'returns expected value' );
+
 	t.end();
 });
