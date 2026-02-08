@@ -78,6 +78,11 @@ The [beta function][beta-function] is related to the [gamma function][gamma-func
 ## Usage
 
 ```javascript
+import betaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaln@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-betaln/tags). For example,
+
+```javascript
 import betaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaln@v0.3.1-esm/index.mjs';
 ```
 
@@ -118,7 +123,7 @@ val = betaln( 4.0, 1.0 );
 <body>
 <script type="module">
 
-import betaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaln@v0.3.1-esm/index.mjs';
+import betaln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-betaln@esm/index.mjs';
 var x;
 var y;
 
