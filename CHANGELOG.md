@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-08-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`87fba64`](https://github.com/stdlib-js/stdlib/commit/87fba64382625884f728c6522888413a781ad2d2) - **test:** migrate `math/base/special/betaln` to ULP-based testing [(#14767)](https://github.com/stdlib-js/stdlib/pull/14767) _(by Checkmate)_
 -   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
 -   [`a02b852`](https://github.com/stdlib-js/stdlib/commit/a02b852b2e784220dba5ee181970e8ef3e921d2e) - **test:** migrate `math/base/special/betaln` to ULP-based testing [(#11717)](https://github.com/stdlib-js/stdlib/pull/11717) _(by Mandeep2333)_
 -   [`9229dd7`](https://github.com/stdlib-js/stdlib/commit/9229dd78fa82c5f863dbc51a9588314d53a97c44) - **bench:** refactor to use string interpolation in `math/base/special` [(#11386)](https://github.com/stdlib-js/stdlib/pull/11386) _(by Karan Anand)_
@@ -27,8 +28,9 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Checkmate
 -   Karan Anand
 -   Mandeep2333
 -   Mara Averick
